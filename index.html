@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wedding Invitation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Gabriela|Acme|Courgette|Cookie|Roboto|Lily+Script+One|Meie+Script" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+  $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+  </script>
+  <style>
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="1">
+       <!-- start navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark  fixed-top">
+        <a class="navbar-brand" href="#">
+                <img src="https://img.icons8.com/office/40/000000/ring-front-view.png" height="40" width="40">Wedding</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#top">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#event">Event</a>
+            </li>    
+            <li class="nav-item">
+                <a class="nav-link" href="#story">Story</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+            </li> 
+            </ul>
+        </div>  
+    </nav>
+        <!-- end navbar --> 
+        
+        <!-- header -->
+        <header id="top" class="header bg0">
+            <div class="header2">
+                <div class="top text-vertical-center">
+                <h3>
+                    <span>Wedding Invitation</span>
+                </h3>
+                <h1 class="mempelai">
+                    Akbar
+                    <span class="amp">&</span>
+                    Eha
+                </h1>
+                <p class="save">
+                    <span>Minggu, 4 Maret 2018</span>
+                </p>
+                
+                    <!-- Button to Open the Modal -->
+  <button type="button" class="btn2" data-toggle="modal" data-target="#myModal1">
+        <div class="invite">
+                <span>Special Invite to:</span>
+            </div>
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal" id="myModal1">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h1 class="modal-title invite1">Turut Mengundang</h1>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            
+              <!-- Modal body -->
+        <div class="modal-body">
+                <div class="media bg-light text-dark border p-3">
+                <img class="mr-3 mt-2 rounded-circle" src="https://fiverr-res.cloudinary.com/images/t_medium9,q_auto,f_auto/gigs/98381915/original/9a98da91fcc1709763e92016d13756af640abcb7/design-minimalist-flat-line-vector-avatar-of-you.jpg" alt="Card image" style="width:60px">
+               <div class="media-body ">
+                 <h4>John Doe</h4>
+                 <p>Tokoh Masyarakat</p>      
+               </div>
+             </div>
+             <div class="media bg-light text-dark border p-3">
+                <img class="mr-3 mt-2 rounded-circle" src="https://fiverr-res.cloudinary.com/images/t_medium9,q_auto,f_auto/gigs/98381915/original/9a98da91fcc1709763e92016d13756af640abcb7/design-minimalist-flat-line-vector-avatar-of-you.jpg" alt="Card image" style="width:60px">
+               <div class="media-body ">
+                 <h4>John Doe</h4>
+                 <p>Tokoh Masyarakat</p>      
+               </div>
+             </div>
+             <div class="media bg-light text-dark border p-3">
+                <img class="mr-3 mt-2 rounded-circle" src="https://fiverr-res.cloudinary.com/images/t_medium9,q_auto,f_auto/gigs/98381915/original/9a98da91fcc1709763e92016d13756af640abcb7/design-minimalist-flat-line-vector-avatar-of-you.jpg" alt="Card image" style="width:60px">
+               <div class="media-body ">
+                 <h4>John Doe</h4>
+                 <p>Tokoh Masyarakat</p>      
+               </div>
+             </div>
+             <div class="media bg-light text-dark border p-3">
+                <img class="mr-3 mt-2 rounded-circle" src="https://fiverr-res.cloudinary.com/images/t_medium9,q_auto,f_auto/gigs/98381915/original/9a98da91fcc1709763e92016d13756af640abcb7/design-minimalist-flat-line-vector-avatar-of-you.jpg" alt="Card image" style="width:60px">
+               <div class="media-body ">
+                 <h4>John Doe</h4>
+                 <p>Tokoh Masyarakat</p>      
+               </div>
+             </div>
+             <div class="media bg-light text-dark border p-3">
+                <img class="mr-3 mt-2 rounded-circle" src="https://fiverr-res.cloudinary.com/images/t_medium9,q_auto,f_auto/gigs/98381915/original/9a98da91fcc1709763e92016d13756af640abcb7/design-minimalist-flat-line-vector-avatar-of-you.jpg" alt="Card image" style="width:60px">
+               <div class="media-body ">
+                 <h4>John Doe</h4>
+                 <p>Tokoh Masyarakat</p>      
+               </div>
+             </div>
+             <div class="media bg-light text-dark border p-3">
+                <img class="mr-3 mt-2 rounded-circle" src="https://fiverr-res.cloudinary.com/images/t_medium9,q_auto,f_auto/gigs/98381915/original/9a98da91fcc1709763e92016d13756af640abcb7/design-minimalist-flat-line-vector-avatar-of-you.jpg" alt="Card image" style="width:60px">
+               <div class="media-body ">
+                 <h4>John Doe</h4>
+                 <p>Tokoh Masyarakat</p>      
+               </div>
+             </div>
+            
+             
+                   </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+                </div>
+            </div>
+        </header>
+
+<audio id="myAudio" controls autoplay>
+    <source src="YA MAULANA - SABYAN.mp3" type="audio/mpeg">
+</audio> 
+        <section id="about" class="bg1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">
+                        <img src="img/cage.png" alt="cage">
+                    </div>
+                    <div class="col-md-8">
+                            <h1 class="mempelai">
+                                    Akbar
+                                    <span class="amp">&</span>
+                                    Eha
+                            </h1>
+                            <h2 class="title">
+                                <span>Hello!</span>
+                            </h2>
+                        <div class="entry">
+                            <h3>
+                                <span>Mohammad Ali Akbar</span>
+                            </h3>
+                            <p>
+                                <span>Seseorang yang terlahir untuk mencintai dan menyayangi Eha.. 
+                                    Berjanji untuk selalu melindungi dan membahagiakan nya..
+                                    Pokoknya udah sayang banget sama Eha, gak mau lagi cari yang lain..
+                                    pokoknya cuma Eha..
+                                </span>
+                            </p>
+                            <h3>
+                                <span>Siti Nur Eha</span>
+                            </h3>
+                            <p>
+                                <span>Seseorang yang terlahir untuk mendampingi hidup Akhbar, baik susah ataupun senang, telah mempercayai sepenuhnya kepada Akhbar..
+                                    dan berjanji akan selalu setia untuk menemaninya..
+                                </span>
+                            </p>
+                            <p>
+                                <span>We invited you to celebrate our wedding</span>
+                            </p>
+                            <p>
+                                <span>-Akhbar & Eha</span>
+                            </p>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="event" class="bg4 padding1">
+            <div class="container">
+                <div class="post">
+                    <h2 class="title">
+                        <span>Acara Kita</span>
+                    </h2>
+                    <img class="ornament" src="img/1.png" alt="ri">
+                        <div class="row">
+                            <div id="akad" class="col-md-6">
+                                <h2>
+                                    <span>Akad</span>
+                                </h2>
+                                    <span>Minggu</span>,
+                                    <span>04 Maret 2019</span>
+                                    <br>
+                                    <span>08:00</span>
+                                    <span>S.d</span>
+                                    <span>11:00</span>
+                                    <br>
+                                    Mekar Asri 1 Block B4/8
+                                    <br>
+                                    jl. Gang Buntu
+                                    <br>
+                                    Kel. Mekar Bakti Kec.Panongan
+                                </p>
+                            </div>
+                            <div id="event1" class="col-md-6">
+                                <h2>
+                                    <span>Resepsi</span>
+                                </h2>
+                                <p>
+                                        <span>Minggu</span>,
+                                        <span>04 Maret 2018</span>
+                                        <br>
+                                        <span>11:00</span>
+                                        <span>S.d</span>
+                                        <span>13:00</span>
+                                        <br>
+                                        Mekar Asri 1 Block B4/8
+                                        <br>
+                                        jl. Gang Buntu
+                                        <br>
+                                        Kel. Mekar Bakti Kec.Panongan
+                                    </p>
+                            </div>
+                        </div>
+                        <a href="https://goo.gl/maps/BGza4PAkU3T2" class="btn btn-info" role="button"><i class='fas fa-map-marked-alt'></i> Denah Lokasi</a>
+                                        <!-- Button to Open the Modal -->
+                                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+                                            <i class='fas fa-dollar-sign'></i> Amplop Online
+                                        </button>
+
+                                        <!-- The Modal -->
+                                        <div class="modal fade" id="myModal">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                            
+                                                <div class="card">
+                                                    <div class="card-header text-center">Amplop Online
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+                                                    <div class="card-body text-left"><img src="https://2.bp.blogspot.com/-lGvmflvsAt0/Vxw8r4FxYLI/AAAAAAAAXCU/_XDIiY_PEz4hpG__6jpxudPBusASFaVgwCLcB/s1600/Logo%2BBRI.png" alt="logo bank" class="mx-auto d-block" width="70" height="70">
+                                                    <table class="table table-borderless">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Nama</td>
+                                                                <td>:</td>
+                                                                <td>Ris Davit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>No Rekening</td>
+                                                                <td>:</td>
+                                                                <td>0806-01-062144-53-7</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Atas Nama</td>
+                                                                <td>:</td>
+                                                                <td>Ris Davit Ari Ramdona</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table></div>
+                                                    <div class="card-footer "><p>Untuk Konfirmasi Transfer bisa melalui WhatsApp</p>
+                                                        <div class="tombol text-center">
+                                                        <a href="http://bit.ly/2uMixpb" class="btn btn-success" role="button">Confirmation</a>
+                                                    </div>
+                                                    </div>
+                                                  </div>
+                                                
+                                            </div>
+                                            </div>
+                                        </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="story" class="padding1">
+                <div class="container">
+                    <div class="post">
+                    <p>
+                        <span>WE LOVE EACH OTHER</span>
+                    </p>
+            <h2 class="title">
+                <span>OUR STORY</span>
+            </h2>
+                    <div class="story1 text-left">                            
+                            <div class="row">
+                                    <div class="col-md-5 text px-1">
+                                            <h2 class="title">
+                                                <span>Pertama Kali Bertemu</span>
+                                            </h2>
+                                            <p>13 JUNI, 2007</p>
+                                            <p>Pertama kali bertemu dibangku sekolah menengah pertama.. Cinta pertama dan terakhir</p>
+                                    </div>
+                                    <div class="col-md-2 col-xs-6 text-center"> <img src="img/2.png" width="200" height="200" ></div>
+                                  </div>
+                                  <div class="row justify-content-end">
+                                    <div class="col-md-2 col-xs-6 text-center"><img src="img/3.png" width="200" height="200" ></div>
+                                    <div class="col-md-5 text px-4"> 
+                                            <h2 class="title">
+                                                <span>Pertama Kali Datang Kerumah</span>
+                                            </h2>
+                                           <p>05 APRIL, 2018</p>
+                                            <p>Sang pria dengan modal nekat mencoba untuk memberanikan diri untuk datang kerumah</p>
+                                    </div>
+                                </div>
+            </div>
+            <!-- Button to Open the Modal -->
+  <button id="movieClick" onclick="pauseAudio()" type="button" class="btn btn-danger" data-toggle="modal" data-target="#mymodal">
+    <i class="fa fa-youtube-play" style="font-size:24px"></i> Our Story
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="mymodal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Tentang kisah cinta kita berdua</h4>
+          <button onclick="playAudio()"type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <iframe id="onscreen" width="512" height="215" src="https://www.youtube.com/embed/lf20pwPH4P0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button onclick="playAudio()" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    <script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+
+$('#mymodal').on('hidden.bs.modal', function playAudio(){
+    x.play();
+})
+
+
+$("#movieClick").click(function(){
+var theLink  = "https://www.youtube.com/embed/lf20pwPH4P0";
+document.getElementById("onscreen").src = theLink;
+});
+
+
+// really annoying to play in the Background...this disables the link
+$("#mymodal").on('hidden.bs.modal', function (e) {
+    $("#mymodal iframe").attr("src", '');
+});
+
+
+    </script>
+
+        </div>
+        </div>
+    </section>
+            <!-- end story -->
+
+
+        <section id="team" class="padding1 bg5">
+                <div class="container">
+                    <div class="post">
+                <h2 class="title">
+                    <span>Jasa yang kami gunakan</span>
+                    </h2>
+                </div>
+                <div class="team1">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                    <div class="media">
+                        <img src="https://img.icons8.com/ultraviolet/80/000000/home.png" class="align-self-start mr-3" >
+                        <div class="media-body">
+                          <h2>
+                              <span>Tenda</span>
+                          </h2>
+                          <p>Mekar Tenda Merupakan bagian dari Selaras Group berawal Berdirinya merupakan jasa pelayanan event organizer meliputi jasa Catering, Dekorasi, Rias dan lain-lain. </p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 text-left">
+                      <div class="media">
+                        <img src="https://img.icons8.com/office/80/000000/circled-user-male-skin-type-5.png" class="align-self-start mr-3" >
+                        <div class="media-body">
+                          <h2>
+                              <span>Jasa Rias</span>
+                          </h2>
+                          <p>Dengan Penuh dedikasi yang tinggi dan profesional kami Mekar Salon siap membantu dalam mengabadikan momen terindah dalam hidup anda. Percayakanlah penyelenggaraan moment / Acara Pernikahan anda lebih cantik dan mewah kepada MEKAR RIAS PENGANTIN DAN SALON.
+                        </p>
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 text-left">
+                      <div class="media">
+                        <img src="https://img.icons8.com/ultraviolet/80/000000/compact-camera.png" class="align-self-start mr-3">
+                        <div class="media-body">
+                          <h2>
+                              <span>Jasa Photo</span>
+                          </h2>
+                          <p>MekarPhotografy adalah sebuah Usaha mandiri kreatif yang bergerak dibidang jasa fotografi dan telah menangani beberapa klien dalam hal dokumentasi Wedding, Pre Wedding, Dokumentasi Perusahaan, Dokumentasi Sekolah, maupun Dokumentasi yang bersifat pribadi.</p>
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </section>
+                <!-- end team -->
+            
+
+                    <!-- <div class="container-fluid padding1 bg-dark">
+                        <div class="vidio" style="text-align:center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1kffLmcFiME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div> -->
+
+
+                <div class="footer" style="text-align:center">Powered Developer by ダビットDev</div>
+
+                <i id="tombolScrollTop" onclick="scrolltotop()" class='fas fa-chevron-circle-up' style='font-size:35px'></i>
+<script>
+    $(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(window).scrollTop() > 100) {
+			$('#tombolScrollTop').fadeIn();
+		} else {
+			$('#tombolScrollTop').fadeOut();
+		}
+	});
+});
+
+function scrolltotop()
+{
+	$('html, body').animate({scrollTop : 0},500);
+}
+
+$('.navbar-nav>li>a').on('click',function(){
+    $('.navbar-collapse').collapse('hide');
+});
+</script>
+</body>
+</html>
